@@ -1,0 +1,26 @@
+{
+  "name": "drona",
+  "version": "1.0.0",
+  "description": "Web Project for a coaching institute",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbaszain/drona-Sankalp-web-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbaszain/drona-Sankalp-web-project/issues"
+  },
+  "homepage": "https://github.com/abbaszain/drona-Sankalp-web-project#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

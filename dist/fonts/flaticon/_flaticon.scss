@@ -1,0 +1,71 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/02/2018 02:26
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-open-book:before { content: "\f100"; }
+.flaticon-book:before { content: "\f101"; }
+.flaticon-navigation:before { content: "\f102"; }
+.flaticon-close-envelope:before { content: "\f103"; }
+.flaticon-phone-call:before { content: "\f104"; }
+.flaticon-right-arrow:before { content: "\f105"; }
+.flaticon-learning:before { content: "\f106"; }
+.flaticon-teacher-pointing-blackboard:before { content: "\f107"; }
+.flaticon-motivation:before { content: "\f108"; }
+.flaticon-open-magazine:before { content: "\f109"; }
+.flaticon-doctor:before { content: "\f10a"; }
+.flaticon-student-with-graduation-hat:before { content: "\f10b"; }
+.flaticon-shield:before { content: "\f10c"; }
+.flaticon-studying:before { content: "\f10d"; }
+.flaticon-team-success:before { content: "\f10e"; }
+.flaticon-books:before { content: "\f10f"; }
+    
+    $font-Flaticon-open-book: "\f100";
+    $font-Flaticon-book: "\f101";
+    $font-Flaticon-navigation: "\f102";
+    $font-Flaticon-close-envelope: "\f103";
+    $font-Flaticon-phone-call: "\f104";
+    $font-Flaticon-right-arrow: "\f105";
+    $font-Flaticon-learning: "\f106";
+    $font-Flaticon-teacher-pointing-blackboard: "\f107";
+    $font-Flaticon-motivation: "\f108";
+    $font-Flaticon-open-magazine: "\f109";
+    $font-Flaticon-doctor: "\f10a";
+    $font-Flaticon-student-with-graduation-hat: "\f10b";
+    $font-Flaticon-shield: "\f10c";
+    $font-Flaticon-studying: "\f10d";
+    $font-Flaticon-team-success: "\f10e";
+    $font-Flaticon-books: "\f10f";

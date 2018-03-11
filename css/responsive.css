@@ -221,7 +221,7 @@
 =============================================
 ***/ 
 .mainmenu-area {
-    background: #F7F7F7;
+    background: #252525;
 }  
 .mainmenu-area .logo .smile {
     display: none;
@@ -254,7 +254,7 @@
     margin: 15px 0;
     margin-right: 10px;
 }
-    
+
 /*** 
 =============================================
     Rev slider wrapper style
@@ -519,7 +519,6 @@
     padding: 12px 0 15px;
 }
 .top-bar-area .top-left {
-    width: 220px;
     margin: 0 auto;
 } 
 .top-contact-info li {
@@ -531,7 +530,7 @@
 .top-contact-info li:last-child {
     border-right: none;
     padding-left: 0;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 .top-bar-area .top-right {
     float: none;
@@ -577,9 +576,7 @@
     z-index: 99999;
 } 
 .outer-search-box .seach-toggle {
-    background: #F7F7F7;
-    font-size: 14px;
-    padding: 9px 0px;
+    display: none;
 }    
     
 
@@ -627,14 +624,14 @@
 .main-menu .navbar-header .navbar-toggle {
     display: inline-block;
     z-index: 7;
-    border: 2px solid #2ecc39;
+    border: 2px solid #ffc100;
     float: none;
     margin: 24px 0;
     border-radius: 0;
     padding: 10px 9px;
 }
 .main-menu .navbar-header .navbar-toggle .icon-bar {
-    background: #2ecc39 none repeat scroll 0 0;
+    background: #ffc100 none repeat scroll 0 0;
     font-weight: 700;
 } 
     
@@ -710,15 +707,15 @@
 .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a{
     padding:10px 10px !important;
     line-height:22px;
-    color:#222222;
-    background:#2acb35;
+    color:#ffc100;
+    background:#252525;
     text-align:left;
 } 
 .main-menu .navbar-collapse > .navigation > li > ul > li > a{
     padding: 10px 20px; 
     line-height:22px;
-    color:#222222;
-    background:#27bf31;
+    color:#ffc100;
+    background:#ffffff;
     text-align:left;
 } 
 .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a{
@@ -732,8 +729,8 @@
 .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
 .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
 .main-menu .navbar-collapse > .navigation > li.current > a{
-    background:#222222;
-    color:#fff !important;
+    background:rgb(55,60,250);
+    color:#ffc100 !important;
 }        
 .main-menu .navbar-collapse > .navigation li.dropdown .dropdown-btn{
     display:block;
@@ -828,13 +825,21 @@
 }    
 .single-blog-item:hover .img-holder .categories {
     transform: translate3d(0px, -114px, 0px);
-}    
-    
-/*** 
+}
+
+/***
+=============================================
+    Mainmenu area style
+=============================================
+***/
+.filterInp{
+    margin-top:25px;
+}
+/***
 =============================================
     Consultations area style
 =============================================
-***/     
+***/
 .consultations-area .contact-info {
     margin-bottom: 0;
     margin-top: 40px;
